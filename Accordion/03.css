@@ -35,6 +35,12 @@ body {
 .open .hidden-box {
     display: block;
 }
+.items3:hover,
+.items:hover,
+.items2:hover{
+    opacity: 0.8;
+    transition: opacity 1s ease;
+}
 
 .plus-icon {
     width: 20px;
